@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/oruohaircare/static/css/main.e6c13ad2.css",
-    "main.js": "/oruohaircare/static/js/main.75806804.js",
+    "main.js": "/oruohaircare/static/js/main.96ed097f.js",
     "static/js/453.effdf9ff.chunk.js": "/oruohaircare/static/js/453.effdf9ff.chunk.js",
     "static/media/photo_2024-09-16_01-15-46.jpg": "/oruohaircare/static/media/photo_2024-09-16_01-15-46.421cf2bf47b8d73fcb90.jpg",
     "static/media/galaxy.jpg": "/oruohaircare/static/media/galaxy.6583b80e0f7d747b51b5.jpg",
@@ -10,11 +10,11 @@
     "static/media/saylin.jpg": "/oruohaircare/static/media/saylin.1e69acaa2101bb55ed6a.jpg",
     "index.html": "/oruohaircare/index.html",
     "main.e6c13ad2.css.map": "/oruohaircare/static/css/main.e6c13ad2.css.map",
-    "main.75806804.js.map": "/oruohaircare/static/js/main.75806804.js.map",
+    "main.96ed097f.js.map": "/oruohaircare/static/js/main.96ed097f.js.map",
     "453.effdf9ff.chunk.js.map": "/oruohaircare/static/js/453.effdf9ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.75806804.js"
+    "static/js/main.96ed097f.js"
   ]
 }
