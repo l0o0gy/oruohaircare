@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/oruohaircare">
+      <BrowserRouter>
         <AppBar />
         <DataProvider>
           <Routes>
