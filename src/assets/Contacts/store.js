@@ -20,10 +20,8 @@ const data = [
         agents: [
             { id: 1, img: agen1, name: 'PV Cosmetic', link: 'https://www.instagram.com/pv_cosmetic/' },
             { id: 2, img: agen2, name: 'Oruo', link: 'https://www.instagram.com/oruo_iraq?igsh=MXd1cXNkeGsxemI2&utm_source=qr' },
-            // { id: 3, img: agen3, name: 'Saylin', link: 'https://www.instagram.com/saylin.crastal_iq?igsh=cGIwcXVjZ3V0cWtr' }
         ],
         agentstick:[
-            // {id: 1, img: agen1, name: 'PV Cosmetic', link: 'https://www.instagram.com/pv_cosmetic/' },
             { id: 2, img: agen2, name: 'Oruo', link: 'https://www.tiktok.com/@oruo_iraq' },
         ],
         agentsfac:[
