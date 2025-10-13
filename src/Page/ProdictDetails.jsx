@@ -111,15 +111,28 @@ function ProductDetails({ item }) {
                             </Table>
                         </TableContainer>
                     </CardContent>
-                    <Stack direction="row" spacing={2} sx={{ mt: 2, display: 'flex', justifyContent: 'space-evenly' }}>
+                    <p>تابعونا وكلائنا على الحسابات التالية  </p>
+                    <p> انستغرام - Instagram </p>
+
+                    <Stack direction="row" spacing={2} sx={{ mt: 2, display: 'flex', justifyContent: 'space-evenly'}}>
                         {item.agents && item.agents.length > 0 ? (
                             item.agents.map(agent => (
-                                <Stack key={agent.id} spacing={1} alignItems="center">
+                                <Stack key={agent.id} spacing={1} alignItems="center" sx={{ border: '1px solid #dad8d8ff' , padding:"10px" ,width:"150px",borderRadius:"5px",                                       transition: 'background-color 0.3s ease',
+
+    '&:hover': {
+      backgroundColor: '#dad8d8ff', 
+    },
+    '&:active': {
+      backgroundColor: '#a09d9dec', 
+    },}}
+    onClick={() => window.open(agent.link, '_blank')}> 
                                     <Avatar 
                                         alt={agent.name} 
                                         src={agent.img}
-                                        sx={{ cursor: 'pointer', width: {xs:50,md:100}, height: {xs:50,md:100} }}
-                                        onClick={() => window.open(agent.link, '_blank')}
+                                        sx={{ cursor: 'pointer', width: {xs:50,md:100}, height: {xs:50,md:100},
+ 
+                                    }}
+                                        
                                     />
                                     <Typography variant="body1">{agent.name}</Typography>
                                 </Stack>
@@ -129,7 +142,117 @@ function ProductDetails({ item }) {
                                 No agents available
                             </Typography>
                         )}
-                    </Stack>
+                        </Stack>
+                        <p> تيك توك - TikTok </p>
+
+<Stack
+  direction="row"
+  spacing={2}
+  sx={{
+    mt: 2,
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    flexWrap: 'wrap',
+  }}
+>
+  {item.agentstick && item.agentstick.length > 0 ? (
+    item.agentstick.map((agentstick) => (
+      <Stack
+        key={agentstick.id}
+        spacing={1}
+        alignItems="center"
+        sx={{
+          border: '1px solid #dad8d8ff',
+          padding: '10px',
+          width: '150px',
+          borderRadius: '5px',
+          cursor: 'pointer',
+          transition: 'background-color 0.3s ease, transform 0.2s ease',
+
+          '&:hover': {
+            backgroundColor: '#f0f0f0', // رمادي فاتح عند التمرير
+            transform: 'scale(1.03)',   // تكبير خفيف عند التمرير
+          },
+          '&:active': {
+            backgroundColor: '#c2c2c2', // رمادي أغمق عند الضغط
+            transform: 'scale(0.98)',   // تصغير خفيف عند الضغط
+          },
+        }}
+        onClick={() => window.open(agentstick.link, '_blank')}
+      >
+        <Avatar
+          alt={agentstick.name}
+          src={agentstick.img}
+          sx={{
+            width: { xs: 50, md: 100 },
+            height: { xs: 50, md: 100 },
+          }}
+        />
+        <Typography variant="body1">{agentstick.name}</Typography>
+      </Stack>
+    ))
+  ) : (
+    <Typography variant="body1" sx={{ textAlign: 'center', width: '100%' }}>
+      لا يوجد وكلاء متاحين
+    </Typography>
+  )}
+</Stack>
+<p> فيسبوك - Facebook </p>
+
+<Stack
+  direction="row"
+  spacing={2}
+  sx={{
+    mt: 2,
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    flexWrap: 'wrap',
+  }}
+>
+  {item.agentsfac && item.agentsfac.length > 0 ? (
+    item.agentsfac.map((agentsfac) => (
+      <Stack
+        key={agentsfac.id}
+        spacing={1}
+        alignItems="center"
+        sx={{
+          border: '1px solid #dad8d8ff',
+          padding: '10px',
+          width: '150px',
+          borderRadius: '5px',
+          cursor: 'pointer',
+          transition: 'background-color 0.3s ease, transform 0.2s ease',
+
+          '&:hover': {
+            backgroundColor: '#f0f0f0', // رمادي فاتح عند التمرير
+            transform: 'scale(1.03)',   // تكبير خفيف عند التمرير
+          },
+          '&:active': {
+            backgroundColor: '#c2c2c2', // رمادي أغمق عند الضغط
+            transform: 'scale(0.98)',   // تصغير خفيف عند الضغط
+          },
+        }}
+        onClick={() => window.open(agentsfac.link, '_blank')}
+      >
+        <Avatar
+          alt={agentsfac.name}
+          src={agentsfac.img}
+          sx={{
+            width: { xs: 50, md: 100 },
+            height: { xs: 50, md: 100 },
+          }}
+        />
+        <Typography variant="body1">{agentsfac.name}</Typography>
+      </Stack>
+    ))
+  ) : (
+    <Typography variant="body1" sx={{ textAlign: 'center', width: '100%' }}>
+      لا يوجد وكلاء متاحين
+    </Typography>
+  )}
+</Stack>
+
+
                 </Box>
             </Card>
         </Box>

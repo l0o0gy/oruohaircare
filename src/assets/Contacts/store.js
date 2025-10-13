@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState } from 'react';
 import img1 from '../img/photo_2024-09-16_01-15-46.jpg';
 import img2 from '../img/pvtreatment.jpg';
 import agen1 from '../img/pv.jpg';
-import agen2 from '../img/galaxy.jpg';
+import agen2 from '../img/ouro.jpeg';
 import agen3 from '../img/saylin.jpg';
 
 const DataContext = createContext();
@@ -19,9 +19,19 @@ const data = [
         آمن لاستعمال الأطفال والحوامل.`,
         agents: [
             { id: 1, img: agen1, name: 'PV Cosmetic', link: 'https://www.instagram.com/pv_cosmetic/' },
-            { id: 2, img: agen2, name: 'Galaxy grop', link: 'https://www.instagram.com/_.ebo/' },
-            { id: 3, img: agen3, name: 'Saylin', link: 'https://www.instagram.com/saylin.crastal_iq?igsh=cGIwcXVjZ3V0cWtr' }
+            { id: 2, img: agen2, name: 'Oruo', link: 'https://www.instagram.com/oruo_iraq?igsh=MXd1cXNkeGsxemI2&utm_source=qr' },
+            // { id: 3, img: agen3, name: 'Saylin', link: 'https://www.instagram.com/saylin.crastal_iq?igsh=cGIwcXVjZ3V0cWtr' }
+        ],
+        agentstick:[
+            // {id: 1, img: agen1, name: 'PV Cosmetic', link: 'https://www.instagram.com/pv_cosmetic/' },
+            { id: 2, img: agen2, name: 'Oruo', link: 'https://www.tiktok.com/@oruo_iraq' },
+        ],
+        agentsfac:[
+            {id: 1, img: agen1, name: 'PV Cosmetic', link: 'https://www.facebook.com/share/19qRksdBmj/?mibextid=wwXIfr'},
+            { id: 2, img: agen2, name: 'Oruo', link: 'https://www.facebook.com/share/1CdFBV6xYp/?mibextid=wwXIfr' },
         ]
+
+
     },
 ];
 
