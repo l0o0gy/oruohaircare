@@ -10,9 +10,10 @@ function App() {
       <BrowserRouter>
         <AppBar />
         <DataProvider>
-          <Routes>
+          <Homepage />
+          {/* <Routes>
             <Route path='/' element={<Homepage />} />
-          </Routes>
+          </Routes> */}
         </DataProvider>
       </BrowserRouter>
     </div>

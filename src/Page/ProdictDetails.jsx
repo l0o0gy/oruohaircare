@@ -170,12 +170,12 @@ function ProductDetails({ item }) {
           transition: 'background-color 0.3s ease, transform 0.2s ease',
 
           '&:hover': {
-            backgroundColor: '#f0f0f0', // رمادي فاتح عند التمرير
-            transform: 'scale(1.03)',   // تكبير خفيف عند التمرير
+            backgroundColor: '#f0f0f0', 
+            transform: 'scale(1.03)',  
           },
           '&:active': {
-            backgroundColor: '#c2c2c2', // رمادي أغمق عند الضغط
-            transform: 'scale(0.98)',   // تصغير خفيف عند الضغط
+            backgroundColor: '#c2c2c2', 
+            transform: 'scale(0.98)',  
           },
         }}
         onClick={() => window.open(agentstick.link, '_blank')}
@@ -224,12 +224,12 @@ function ProductDetails({ item }) {
           transition: 'background-color 0.3s ease, transform 0.2s ease',
 
           '&:hover': {
-            backgroundColor: '#f0f0f0', // رمادي فاتح عند التمرير
-            transform: 'scale(1.03)',   // تكبير خفيف عند التمرير
+            backgroundColor: '#f0f0f0', 
+            transform: 'scale(1.03)',  
           },
           '&:active': {
-            backgroundColor: '#c2c2c2', // رمادي أغمق عند الضغط
-            transform: 'scale(0.98)',   // تصغير خفيف عند الضغط
+            backgroundColor: '#c2c2c2', 
+            transform: 'scale(0.98)',  
           },
         }}
         onClick={() => window.open(agentsfac.link, '_blank')}
