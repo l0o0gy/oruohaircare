@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
-import img1 from '../img/photo_2024-09-16_01-15-46.jpg';
+import img1 from '../img/main.PNG';
 import img2 from '../img/pvtreatment.jpg';
 import agen1 from '../img/pv.jpg';
 import agen2 from '../img/ouro.jpeg';

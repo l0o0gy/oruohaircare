@@ -18,8 +18,8 @@ function ProductDetails({ item }) {
             sx={{
                 display: 'flex',
                 justifyContent: 'center',
-                p: { xs: 2, sm: 0 },
-                mt: { xs: '-50px', sm: 0, md: '-40px' },
+                // p: { xs: 2, sm: 0 },
+                mt: { xs: '-47px', sm: 0, md: '-40px' },
                 direction: 'rtl',
                 width: '100%',
                 overflow: 'auto',
@@ -29,27 +29,27 @@ function ProductDetails({ item }) {
             <Card
                 sx={{
                     display: 'flex',
-                    flexDirection: { xs: 'column', md: 'row' },
+                    flexDirection: { xs: 'column'},
                     width: '100%',
                     maxWidth: 2000,
                     boxShadow: 'none',
-                    mb: { xs: 5, md: 0 },
-                    mr:{md:2},
+                    // mb: { xs: 0, md: 0 },
+                    // mr:{xs:0,md:2},
                 }}
             >
                 <Box
-                    sx={{
-                        position: 'relative',
-                        width: { xs: '100%', md: '40%' },
-                        height: { xs: 350, md: 500 },
-                        overflow: 'hidden',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        bgcolor:'gray'
+                    // sx={{
+                    //     position: 'relative',
+                    //     width: { xs: '100%', md: '40%' },
+                    //     height: { xs: 350, md: 500 },
+                    //     overflow: 'hidden',
+                    //     display: 'flex',
+                    //     justifyContent: 'center',
+                    //     bgcolor:'gray'
 
 
 
-                    }}
+                    // }}
                 >
                     <CardMedia
                         component="img"
@@ -57,12 +57,12 @@ function ProductDetails({ item }) {
                         alt={item.title}
                         sx={{
                             width: { xs: '100%', md: '100%' },
-                            height: { xs: '100%', md: '100%' },
+                            height: { xs: '90%', md: '100%' },
                             objectFit: 'cover',
-                            boxShadow:{md:2} ,
+                            // boxShadow:{md:2} ,
                         }}
                     />
-                    <IconButton
+                    {/* <IconButton
                         color="primary"
                         sx={{
                             position: 'absolute',
@@ -77,7 +77,7 @@ function ProductDetails({ item }) {
                         }}
                     >
                         <ArrowForwardIosIcon />
-                    </IconButton>
+                    </IconButton> */}
                 </Box>
 
                 <Box
@@ -92,9 +92,9 @@ function ProductDetails({ item }) {
                     }}
                 >
                     <CardContent>
-                        <Typography variant="h4" component="div" sx={{ mb: 2 ,textAlign:{xs:'center',md:'auto'}}}>
+                        {/* <Typography variant="h4" component="div" sx={{ mb: 2 ,textAlign:{xs:'center',md:'auto'}}}>
                             {item.title}
-                        </Typography>
+                        </Typography> */}
 
                         <TableContainer component={Paper} sx={{ boxShadow: 'none' }}>
                             <Table>
