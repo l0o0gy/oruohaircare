@@ -1,9 +1,10 @@
 import React from "react";
-import { FavoriteBorder } from "@mui/icons-material";
-import { Rating, Button, Box, Typography, Card, CardContent, CardMedia, IconButton, Grid } from "@mui/material";
+import { Button, Box, Typography, Card, CardContent, CardMedia, Grid } from "@mui/material";
+import { useNavigate } from 'react-router-dom';
 
 const Info = ({ item }) => {
   const { CardInfo } = item;
+  const navigate = useNavigate();
 
   return (
     <Grid container spacing={2} justifyContent="center" >
@@ -20,8 +21,6 @@ const Info = ({ item }) => {
               height: "100%",
             }}
           >
-
-            {/* Image */}
             <CardMedia
               component="img"
               image={card.img}
@@ -29,37 +28,18 @@ const Info = ({ item }) => {
               sx={{
                 width: "100%",
                 height: 300,
-                // objectFit: "contain",
-                // margin: "5px auto 0",
                 objectFit: 'cover',
                 border: "10px solid white",
                 borderRadius: 5,
               }}
             />
 
-            {/* Info */}
             <CardContent sx={{ flexGrow: 1, textAlign: "center" }}>
               <Typography variant="subtitle1" fontWeight="600" color="text.primary">
                 {card.title}
               </Typography>
-
-              {/* <Typography
-                variant="body2"
-                color="text.secondary"
-                sx={{
-                  mt: 1,
-                  overflow: "hidden",
-                  textOverflow: "ellipsis",
-                  display: "-webkit-box",
-                  WebkitLineClamp: 3,
-                  WebkitBoxOrient: "vertical",
-                }}
-              >
-                {card.des}
-              </Typography> */}
             </CardContent>
 
-            {/* Button */}
             <Box sx={{ p: 2 }}>
               <Button
                 fullWidth
@@ -71,6 +51,7 @@ const Info = ({ item }) => {
                   textTransform: "none",
                   fontWeight: "bold",
                 }}
+                onClick={() => navigate(`/info/${card.id}`)}
               >
                 انقر هنا للمزيد من المعلومات 
               </Button>

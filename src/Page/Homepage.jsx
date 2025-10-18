@@ -20,7 +20,6 @@ function Homepage() {
       {items.map((item) => (
         <Footer key={item.id} item={item} />
       ))}
-
       </Box>
     </div>
   );

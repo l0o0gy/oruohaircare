@@ -103,7 +103,7 @@ function Footer({ item }) {
 
           {/* Description */}
           <Grid item xs={12} md={6}>
-            <Typography variant="body1" sx={{ lineHeight: 1.8, color: '#f0f0f0' }}>
+            <Typography variant="body1" sx={{ lineHeight: 1.8, color: '#f0f0f0' , direction: 'rtl',textAlign: 'right',}}>
               نحن في <strong>PV Cosmetic</strong> و<strong>ORUO</strong> نسعى لتقديم أفضل الخدمات لعملائنا،
               ونسعد دائماً بالتواصل معكم عبر قنواتنا الرسمية للحصول على الدعم والمساعدة الفورية.
             </Typography>
