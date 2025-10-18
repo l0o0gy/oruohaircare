@@ -4,6 +4,8 @@ import img2 from '../img/pvtreatment.jpg';
 import agen1 from '../img/pv.jpg';
 import agen2 from '../img/ouro.jpeg';
 import agen3 from '../img/saylin.jpg';
+import Cardimg1 from '../img/photo_2024-09-16_01-15-46.jpg';
+import Cardimg2 from '../img/pv.jpg';
 
 const DataContext = createContext();
 
@@ -27,6 +29,11 @@ const data = [
         agentsfac:[
             {id: 1, img: agen1, name: 'PV Cosmetic', link: 'https://www.facebook.com/share/19qRksdBmj/?mibextid=wwXIfr'},
             { id: 2, img: agen2, name: 'Oruo', link: 'https://www.facebook.com/share/1CdFBV6xYp/?mibextid=wwXIfr' },
+        ],
+        CardInfo:[
+            {id:1,img:Cardimg1,title:'how to use ouro',des:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'},
+            {id:2,img:Cardimg2,title:'what is ouro',des:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'}
+
         ]
 
 
