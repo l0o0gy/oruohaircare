@@ -30,7 +30,7 @@ const Info = ({ item }) => {
       sx={{
         background: "linear-gradient(180deg, #fffaf0 0%, #fdf5e6 100%)",
         minHeight: "100vh",
-        // py: 5,
+        py: {xs:5,md:0},
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
       }}
     >
