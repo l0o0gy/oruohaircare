@@ -4,6 +4,7 @@ import { Box } from '@mui/material';
 import ProductDetails from '../Components/ProdictDetails';
 import Info from '../Components/Info';
 import Footer from '../Components/Footer';
+import AutoScrollImages from '../Components/AutoScrollImages';
 
 function Homepage() {
   const items = useData();
@@ -17,6 +18,7 @@ function Homepage() {
       {items.map((item) => (
         <Info key={item.id} item={item} />
       ))}
+      <AutoScrollImages/>
       {items.map((item) => (
         <Footer key={item.id} item={item} />
       ))}

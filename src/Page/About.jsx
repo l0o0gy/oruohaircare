@@ -8,7 +8,7 @@ const AboutAbd = () => {
       component="div"
       dir="rtl"
       sx={{
-        background: "linear-gradient(180deg, #fffaf0 0%, #fdf5e6 100%)",
+        // background: "linear-gradient(180deg, #fffaf0 0%, #fdf5e6 100%)",
         minHeight: "100vh",
         py: 1,
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
@@ -21,15 +21,15 @@ const AboutAbd = () => {
           src={img}
           alt="ORUO Nano Filter"
           sx={{
-            width: "100%",
-            borderRadius: 3,
-            mb: 5,
-            boxShadow: "0 8px 24px rgba(0,0,0,0.15)",
-            transition: "transform 0.3s",
-            "&:hover": {
-              transform: "scale(1.02)",
-            },
-          }}
+  width: "100%", 
+  borderRadius: 3,
+  mb: 5,
+  boxShadow: "0 8px 24px rgba(0,0,0,0.15)",
+  transition: "transform 0.3s",
+  "&:hover": {
+    transform: "scale(1.02)",
+  },
+}}
         />
 
         {/* Title */}
@@ -44,6 +44,13 @@ const AboutAbd = () => {
             pr: 2,
             py: 1,
             borderRadius: "4px 0 0 4px",
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           علاج الشعر ORUO Nano Filter – الجمال يبدأ من خصلات ناعمة
@@ -55,11 +62,18 @@ const AboutAbd = () => {
         <Box
           component="div"
           sx={{
-            color: "#5A4632",
+            // color: "#5A4632",
             fontSize: "1.05rem",
             lineHeight: 2.2,
             textAlign: "right",
             mb: 3,
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           <Typography variant="body1" sx={{ mb: 2 }}>
@@ -92,6 +106,13 @@ const AboutAbd = () => {
             p: 2,
             borderRadius: 2,
             boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           💛 لماذا تختارين ORUO Nano Filter؟
@@ -104,9 +125,16 @@ const AboutAbd = () => {
             textAlign: "right",
             marginBottom: 3,
             lineHeight: 2.2,
-            color: "#5A4632",
+            // color: "#5A4632",
             fontSize: "1.05rem",
             listStyleType: "decimal",
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           <li>لأنك تستحقين شعراً ناعماً دون نفشة أو تجعّد.</li>
@@ -127,6 +155,13 @@ const AboutAbd = () => {
             p: 2,
             borderRadius: 2,
             boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           ✨ النتيجة: شعر ناعم، لامع، انسيابي، سهل التسريح... ينبض بالحياة!

@@ -8,7 +8,7 @@ const Ingredients = () => {
       component="div"
       dir="rtl"
       sx={{
-        background: "linear-gradient(180deg, #fffaf0 0%, #fdf5e6 100%)",
+        // background: "linear-gradient(180deg, #fffaf0 0%, #fdf5e6 100%)",
         minHeight: "100vh",
         py: 1,
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
@@ -44,6 +44,13 @@ const Ingredients = () => {
             pr: 2,
             py: 1,
             borderRadius: "4px 0 0 4px",
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           مكونات ORUO Nano Filter وفوائدها
@@ -62,29 +69,57 @@ const Ingredients = () => {
             color: "#5A4632",
             fontSize: "1.05rem",
             listStyleType: "decimal",
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           <li>
-            <strong>زيت المكاديميا:</strong> يغذي الشعر بعمق ويمنحه نعومة ولمعان طبيعي.
-          </li>
-          <li>
-            <strong>مستخلص الكافيار:</strong> يحفز نمو الشعر ويعيد حيويته من الجذور.
-          </li>
-          <li>
-            <strong>زيت جوز الهند:</strong> يرطب الشعر ويحميه من التقصف والتلف.
-          </li>
-          <li>
-            <strong>زيت الأمازون:</strong> يمنح الشعر القوة والمرونة ويقلل الهيشان.
-          </li>
-          <li>
-            <strong>البوتكس:</strong> يعمل على تنعيم الشعر وتقليل التجاعيد والملمس الخشن.
-          </li>
-          <li>
-            <strong>الكولاجين:</strong> يقوي الشعر ويعزز مرونته ولمعانه.
-          </li>
-          <li>
-            <strong>زيت بذور الكتان:</strong> يغذي الشعر ويعزز نموه ويحافظ على صحته.
-          </li>
+    <Typography component="span" sx={{ color: "#5A4632", fontWeight: "bold" }}>
+      زيت المكاديميا:
+    </Typography>{" "}
+    يغذي الشعر بعمق ويمنحه نعومة ولمعان طبيعي.
+  </li>
+  <li>
+    <Typography component="span" sx={{ color: "#5A4632", fontWeight: "bold" }}>
+      مستخلص الكافيار:
+    </Typography>{" "}
+    يحفز نمو الشعر ويعيد حيويته من الجذور.
+  </li>
+  <li>
+    <Typography component="span" sx={{ color: "#5A4632", fontWeight: "bold" }}>
+      زيت جوز الهند:
+    </Typography>{" "}
+    يرطب الشعر ويحميه من التقصف والتلف.
+  </li>
+  <li>
+    <Typography component="span" sx={{ color: "#5A4632", fontWeight: "bold" }}>
+      زيت الأمازون:
+    </Typography>{" "}
+    يمنح الشعر القوة والمرونة ويقلل الهيشان.
+  </li>
+  <li>
+    <Typography component="span" sx={{ color: "#5A4632", fontWeight: "bold" }}>
+      البوتكس:
+    </Typography>{" "}
+    يعمل على تنعيم الشعر وتقليل التجاعيد والملمس الخشن.
+  </li>
+  <li>
+    <Typography component="span" sx={{ color: "#5A4632", fontWeight: "bold" }}>
+      الكولاجين:
+    </Typography>{" "}
+    يقوي الشعر ويعزز مرونته ولمعانه.
+  </li>
+  <li>
+    <Typography component="span" sx={{ color: "#5A4632", fontWeight: "bold" }}>
+      زيت بذور الكتان:
+    </Typography>{" "}
+    يغذي الشعر ويعزز نموه ويحافظ على صحته.
+  </li>
         </Box>
 
         {/* Note */}
@@ -99,6 +134,13 @@ const Ingredients = () => {
             p: 2,
             borderRadius: 2,
             boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           ✨ جميع المكونات طبيعية وآمنة، تساعد على تغذية الشعر وجعله أكثر صحة ولمعان!

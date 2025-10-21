@@ -8,7 +8,7 @@ const HowToUse = () => {
       component="div"
       dir="rtl"
       sx={{
-        background: "linear-gradient(180deg, #fffaf0 0%, #fdf5e6 100%)", 
+        // background: "linear-gradient(180deg, #fffaf0 0%, #fdf5e6 100%)", 
         minHeight: "100vh",
         py: 1,
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
@@ -39,11 +39,18 @@ const HowToUse = () => {
             fontWeight: 700,
             mb: 4,
             textAlign: "right",
-            color: "#8B6D2F", // لون ذهبي داكن للعنوان
-            borderRight: "6px solid #D4AF37", // خط ذهبي خفيف
+            color: "#8B6D2F", 
+            borderRight: "6px solid #D4AF37", 
             pr: 2,
             py: 1,
             borderRadius: "4px 0 0 4px",
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           طريقة استخدام ORUO Nano Filter
@@ -57,9 +64,16 @@ const HowToUse = () => {
           textAlign: "right", 
           marginBottom: 3, 
           lineHeight: 2.2,
-          color: "#5A4632",
+          // color: "#5A4632",
           fontSize: "1.05rem",
           listStyleType: "decimal",
+          fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
         }}>
           <li>يغسل الشعر مرتين بالشامبو.</li>
           <li>تجفيف الشعر 100%.</li>
@@ -83,7 +97,14 @@ const HowToUse = () => {
             background: "linear-gradient(90deg, #FFF8DC, #FAF0E6)", // تدرج ذهبي خفيف
             p: 2,
             borderRadius: 2,
-            boxShadow: "0 4px 12px rgba(0,0,0,0.1)"
+            boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+            fontSize: {
+              xs: "16px",  
+              sm: "20px",  
+              md: "24px",  
+              lg: "28px",  
+              xl: "32px",  
+            },
           }}
         >
           ✨ النتيجة: شعر ناعم، لامع، انسيابي، سهل التسريح، وصحي!
