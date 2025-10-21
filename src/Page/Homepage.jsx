@@ -13,14 +13,14 @@ function Homepage() {
     <div>
       <Box>
         {items.map((item) => (
-          <ProductDetails key={item.id} item={item} />
+          <ProductDetails key={item.id} item={item} id="home" />
         ))}
       {items.map((item) => (
-        <Info key={item.id} item={item} />
+        <Info key={item.id} item={item} id="about"/>
       ))}
       <AutoScrollImages/>
       {items.map((item) => (
-        <Footer key={item.id} item={item} />
+        <Footer key={item.id} item={item} id="contact"/>
       ))}
       </Box>
     </div>

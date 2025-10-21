@@ -39,7 +39,7 @@ function Footer({ item }) {
         color: '#f5f5f5',
         pt: 10,
         pb: 3,
-        mt: 6,
+        // mt: 6,
         position: 'relative',
         overflow: 'hidden',
         '&::before': {
