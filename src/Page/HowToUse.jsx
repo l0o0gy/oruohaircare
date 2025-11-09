@@ -129,7 +129,7 @@ const HowToUse = () => {
               fontSize: { xs: "26px", sm: "32px", md: "40px" },
             }}
           >
-            طريقة استخدام ORUO Nano Filter
+       طريقة استخدامORUO Nano Filler 
           </Typography>
         </Fade>
 
