@@ -32,9 +32,9 @@ const data = [
             { id: 2, img: agen2, name: 'Oruo', link: 'https://www.facebook.com/share/1CdFBV6xYp/?mibextid=wwXIfr' },
         ],
         CardInfo:[
-            {id:1,img:Cardimg1,title:'لماذا تختارين ORUO Nano Filter'},
-            {id:2,img:Cardimg2,title:'طريقة استخدام ORUO Nano Filter'},
-            {id:3,img:Cardimg3,title:' مكونات ORUO Nano Filter'},
+            {id:1,img:Cardimg1,title:'لماذا تختارين ORUO Nano Filler'},
+            {id:2,img:Cardimg2,title:'طريقة استخدام ORUO'},
+            {id:3,img:Cardimg3,title:' مكونات ORUO'},
         ]
 
 
