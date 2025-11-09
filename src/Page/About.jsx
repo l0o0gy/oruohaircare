@@ -15,7 +15,7 @@ const AboutAbd = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   const features = [
-    { icon: <SpaIcon />, title: "تقنية Nano Filter", desc: "تغلغل عميق لعلاج الشعر من الداخل" },
+    { icon: <SpaIcon />, title: "تقنية Nano Filler", desc: "تغلغل عميق لعلاج الشعر من الداخل" },
     { icon: <WaterDropIcon />, title: "زيت الأركان", desc: "ترطيب فائق ولمعان طبيعي" },
     { icon: <LocalFloristIcon />, title: "زيت الماكاداميا", desc: "تغذية مكثفة وحماية من التلف" },
     { icon: <ShieldIcon />, title: "آمن تماماً", desc: "خالي من الفورمالين والمواد الضارة" },
@@ -187,7 +187,7 @@ const AboutAbd = () => {
                     lineHeight: 1.3,
                   }}
                 >
-                  علاج الشعر ORUO Nano Filter
+                  علاج الشعر ORUO 
                 </Typography>
 
                 <Typography
@@ -229,13 +229,13 @@ const AboutAbd = () => {
                 }}
               >
                 <Typography variant="body1" sx={{ mb: 2 }}>
-                  امنحي شعرك تجربة فاخرة لا مثيل لها مع <strong style={{ color: '#8B6D2F' }}>ORUO Nano Filter</strong>،
+                  امنحي شعرك تجربة فاخرة لا مثيل لها مع <strong style={{ color: '#8B6D2F' }}>ORUO</strong>،
                   العلاج الاحترافي الذي يعيد لشعرك نعومته ولمعانه الطبيعي من أول استخدام.
                 </Typography>
               </Paper>
 
               <Typography variant="body1" sx={{ mb: 3 }}>
-                بفضل تقنية <Chip label="Nano Filter" size="small" sx={{ background: '#D4AF37', color: 'white', fontWeight: 'bold', mx: 1 }}/> 
+                بفضل تقنية <Chip label="Nano Filler" size="small" sx={{ background: '#D4AF37', color: 'white', fontWeight: 'bold', mx: 1 }}/> 
                 المتطورة، يتغلغل المنتج بعمق داخل ألياف الشعر ليعالج التلف من الداخل ويرطب كل خصلة بلطف.
               </Typography>
 
@@ -287,7 +287,7 @@ const AboutAbd = () => {
                 }}
               >
                 <FavoriteIcon sx={{ fontSize: 32 }} />
-                لماذا تختارين ORUO Nano Filter؟
+                لماذا تختارين ORUO؟
               </Typography>
 
               <Stack spacing={2}>
